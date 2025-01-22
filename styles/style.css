@@ -10,6 +10,12 @@
     font-weight: 500;
     font-style: normal;
   }
+  .raleway-medium {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 .quicksand-semi{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -60,7 +66,7 @@
   #c{
     color: cyan;
   }
-  #p{
+  .p{
     color: violet;
   }
   .btn1{
@@ -97,7 +103,61 @@
 }
 
 
-
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 475px;
+    padding: 40px 58px;
+    border-radius: 15px;
+}
+.blu{
+  background: 
+  linear-gradient(to bottom, #cceeff, transparent 60%) no-repeat;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+background-color: white;
+}
+.or{
+  background: 
+  linear-gradient(to bottom, #FFF4DC, transparent 60%) no-repeat;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+background-color: white;
+}
+.pur{
+  background: 
+  linear-gradient(to bottom, #F2E8FF, transparent 60%) no-repeat;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+background-color: white;
+}
+.container{
+    margin: 0 140px;
+   display: flex;
+   gap: 28px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+.cc{
+    margin-top: 60px;
+    background-image: url("../assets/bg.png");
+}
+.cc-title{
+    text-align: center;
+}
+.grey{
+    color: rgba(128, 128, 128, 1);
+}
+.card > a{
+    text-decoration: none;
+}
+.card > p{
+  margin-bottom: 32px;
+  font-size: 15px;
+}
+.card > h2{
+  font-size: 24px;
+}
 
 
 
@@ -166,5 +226,10 @@
     }
     .b-img{
         width: 100%;
+    }
+    .container{
+      flex-direction: column;
+      margin: 0;
+      margin-bottom: 80px;
     }
   }
