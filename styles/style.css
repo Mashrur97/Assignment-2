@@ -51,10 +51,10 @@
   #bar{
     display: none;
   }
-  #o{
+  .o{
     color: orange;
   }
-  #sb{
+  .sb{
     color: skyblue;
   }
   #c{
@@ -71,6 +71,52 @@
     color: white;
     background-color: orange;
   }
+
+
+.banner{
+    display: flex;
+    margin: 0 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-title{
+    font-size: 56px;
+}
+.b-desc{
+    font-size: 20px;
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+
+.btn2{
+    padding: 10px 47px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   @media screen and  (max-width: 576px){
     .links{
@@ -93,12 +139,32 @@
     .title{
         display: flex;
         justify-content: space-between;
-        gap: 170px;
+        gap: 50px;
         padding-left: 20px;
         padding-right: 20px;
     }
     #hr{
         display: block;
         color: #ffbf50d2;
+    }
+    .banner{
+        margin: 0;
+        flex-direction: column-reverse;
+        padding-left: 45px;
+    }
+    .lb{
+        display: none;
+    }
+    .b-title{
+      text-align: center;
+    }
+    .b-desc{
+        text-align: center;
+    }
+    .b-text{
+        justify-items: center;
+    }
+    .b-img{
+        width: 100%;
     }
   }
