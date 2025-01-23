@@ -322,7 +322,10 @@ footer{
 .btn7:hover{
   background-color: rgb(255, 125, 4);
 }
-
+.mrq{
+  color: rgb(0, 95, 95);
+  font-size: 25px;
+}
 
 
 
@@ -334,6 +337,9 @@ footer{
     }
     .btn1{
         display: none;
+    }
+    .mrq{
+      display: none;
     }
     #bar{
         display: block;
