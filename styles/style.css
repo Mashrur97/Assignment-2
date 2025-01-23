@@ -341,15 +341,16 @@ footer{
         height: 25px;
     }
     .nav{
-        border-bottom: 1px solid orange;
+        border: 1px solid orange;
         margin: 0;
+        margin-right: -60px;
     }
     .title-text{
         display: none;
     }
     .title{
         justify-content: space-between;
-        gap: 380px;
+        gap: 390px;
     }
     .banner{
       max-width: 350px;
@@ -395,11 +396,22 @@ footer{
     .big-card{
       display: none;
     }
+    .btn4{
+      margin-right: 40px;
+      padding: 8px;
+      font-size: 15px;
+    }
+    .btn5{
+      margin-right: 40px;
+      padding: 8px;
+      font-size: 15px;
+    }
  .btn6{
   margin-top: -150px;
+  margin-right: -40px;
  }
  .mainstory{
-  margin-right: -55px;
+  margin-right: -60px;
  }
  .small-cards{
   gap: 10px;
