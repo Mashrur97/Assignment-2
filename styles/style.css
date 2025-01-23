@@ -140,6 +140,7 @@ background-color: white;
 }
 .cc{
     margin-top: 60px;
+    margin-bottom: 50px;
     background-image: url("../assets/bg.png");
 }
 .cc-title{
@@ -160,10 +161,10 @@ background-color: white;
 }
 
 .mainstory{
+  
  /* background: 
  linear-gradient(to top, #FFF4DC, transparent 80%) no-repeat; 
   background-image: url(../assets/bg.png);  */
-  
  background-image: 
     linear-gradient(to top, rgba(255, 230, 180, 0.9), rgba(255, 255, 255, 0.9)), 
     url(../assets/bg.png);
@@ -256,7 +257,18 @@ background-color: white;
   margin-bottom: 140px;
 }
 .btn6{
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  margin-bottom: 40px;
+}
+.btnx{
+  padding: 10px 40px 10px 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 
@@ -294,7 +306,22 @@ footer{
   list-style: none;
   margin-left: -39px;
 }
-
+.arrow{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn7{
+  padding: 15px 22px 15px 22px;
+  border: none;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+}
+.btn7:hover{
+  background-color: rgb(255, 125, 4);
+}
 
 
 
@@ -310,25 +337,19 @@ footer{
     }
     #bar{
         display: block;
-        width: 5%;
+        width: 25px;
+        height: 25px;
     }
     .nav{
-        border: 1px solid orange;
+        border-bottom: 1px solid orange;
         margin: 0;
     }
     .title-text{
         display: none;
     }
     .title{
-        display: flex;
         justify-content: space-between;
-        gap: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #hr{
-        display: block;
-        color: #ffbf50d2;
+        gap: 450px;
     }
     .banner{
         margin: 0;
@@ -340,9 +361,17 @@ footer{
     }
     .b-title{
       text-align: center;
+      margin-left: -40px;
+    }
+    #brk{
+      display: none;
     }
     .b-desc{
         text-align: center;
+        margin-left: -40px;
+    }
+    .btn2{
+      margin-left: -40px;
     }
     .b-text{
         justify-items: center;
@@ -350,20 +379,20 @@ footer{
     .b-img{
         width: 100%;
     }
+    .cc{
+      margin-left: 40px;
+    }
     .container{
       flex-direction: column;
-      margin: 0;
+      margin: 0px;
       margin-bottom: 80px;
     }
     .big-card{
       display: none;
     }
-    .btn6{
-      margin-top: -100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+ .btn6{
+  margin-top: -150px;
+ }
     .m-container{
       margin-bottom: 200px;
     }
@@ -379,8 +408,12 @@ footer{
     }
    
     footer{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 30px;
+    }
+    .arrow{
+      display: none;
     }
   }
