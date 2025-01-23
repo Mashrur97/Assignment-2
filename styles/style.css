@@ -349,9 +349,10 @@ footer{
     }
     .title{
         justify-content: space-between;
-        gap: 450px;
+        gap: 380px;
     }
     .banner{
+      max-width: 350px;
         margin: 0;
         flex-direction: column-reverse;
         padding-left: 45px;
@@ -361,26 +362,30 @@ footer{
     }
     .b-title{
       text-align: center;
-      margin-left: -40px;
+      margin-left: 60px;
     }
     #brk{
       display: none;
     }
     .b-desc{
         text-align: center;
-        margin-left: -40px;
+        margin-left: 60px;
     }
     .btn2{
-      margin-left: -40px;
+      margin-left: 60px;
     }
     .b-text{
         justify-items: center;
     }
     .b-img{
-        width: 100%;
+      margin-left: -75px;
+        max-width: 350px;
     }
     .cc{
-      margin-left: 40px;
+      margin-left: 5px;
+    }
+    .cc-title{
+      margin-right: -50px;
     }
     .container{
       flex-direction: column;
@@ -393,6 +398,12 @@ footer{
  .btn6{
   margin-top: -150px;
  }
+ .mainstory{
+  margin-right: -55px;
+ }
+ .small-cards{
+  gap: 10px;
+ }
     .m-container{
       margin-bottom: 200px;
     }
@@ -401,7 +412,7 @@ footer{
     }
     .sscard{
       height: 280px;
-      width: 250px;
+      width: 230px;
     }
     .fcontainer{
       flex-direction: column;
@@ -412,6 +423,7 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
+    margin-right: -60px;
     }
     .arrow{
       display: none;
