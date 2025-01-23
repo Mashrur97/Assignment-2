@@ -161,16 +161,9 @@ background-color: white;
 }
 
 .mainstory{
-  
- /* background: 
- linear-gradient(to top, #FFF4DC, transparent 80%) no-repeat; 
-  background-image: url(../assets/bg.png);  */
- background-image: 
-    linear-gradient(to top, rgba(255, 230, 180, 0.9), rgba(255, 255, 255, 0.9)), 
-    url(../assets/bg.png);
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background: 
+  linear-gradient(to top, #f3dfb0, transparent 70%), 
+  url("../assets/bg.png") center;
 }
 .story{
   margin-top: 80px;
